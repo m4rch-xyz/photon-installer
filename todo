@@ -1,0 +1,9 @@
+[ general ]
+	- sign exe
+[ content ]
+	- get latest release
+	- better loading bar
+[ bugs ]
+	- local/programs sometimes not there
+[ misc ]
+	- optimize nexe resources node_modules

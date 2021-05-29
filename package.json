@@ -1,0 +1,21 @@
+{
+	"name": "photon-installer",
+	"version": "0.1.0",
+	"description": "installer for the frontend and backend of the photon application",
+	"author": "mola19",
+	"main": "index.js",
+	"scripts": {
+		"build-win": "nexe src/win.js -t windows-x64-14.15.3 -o \"./out/installer.exe\" -r \"./node-modules/**/*\""
+	},
+	"keywords": [
+		"photon"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"extract-zip": "^2.0.1",
+		"node-powershell": "^4.0.0"
+	},
+	"devDependencies": {
+		"nexe": "^4.0.0-beta.18"
+	}
+}
